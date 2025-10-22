@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<html lang="es">
+ <head>
+<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>.::CUENTA CUENTOS.::</title>
+ <style>
+ .superior{
+  background:#ffffff;
+  text-align:center;
+  font-size:12px;
+  font-weight:bold;
+  color:black;
+  border-radius:50px 50px 0px 0px;
+  overflow:hidden;
+  }
+  a{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  width:170px;
+  height:130px;
+  margin:0px;
+  font-family:verdana;
+  font-size:12px;
+  font-weight:bold;
+  background-color:#212cff;
+  color:#000000;
+  border:none;
+  text-decoration:none;
+  border-radius:25px 0px 25px 0px;
+  transition:all 0.3s ease;
+  }
+  a:hover{
+  background-color:#0a7001;
+  color:#FFFFFF;
+  }
+
+
+@keyframes parpadeo {
+   0% { filter: drop-shadow(0 0 5px red); }
+   50% { filter: drop-shadow(0 0 20px yellow); }
+   100% { filter: drop-shadow(0 0 5px red); }
+  }
+
+
+   a img {
+   animation: parpadeo 1s ease-in-out 6;
+ }
+
+
+ </style>
+</head>
+<body background="imagenes/skulls.png">
+
+ <!-- TABLA -->
+
+ <table width="1200px" height="1000px" border="0" cellspacing="0" cellpadding="20" align="center"> 
+  <tr>
+     <td height="250px" colspan="7" bgcolor="1492DB" align="center" class="superior">
+        <img src="imagenes/logocuentacuentos2.png" width="355" height="200">
+     </td>
+  </tr>
+
+  <tr id="cuentos">
+  
+  <td width="171px" height="50" align="center"> 
+    <a href="inicio.html" target="contenido">
+    <img src="imagenes/btn_inicio.png" width="150px" height="85px"></a>
+  </td>
+    
+  <td width="171px" height="50px" align="center">
+         <a href="cuento1.html" target="contenido"><p>Caperucita Roja</p>
+         <img src="imagenes/caperucita2.png" width="171px" height="50"></a>
+  </td>
+    
+  <td width="171px" height="50px" align="center">
+         <a href="cuento2.html" target="contenido"><p>Los tres cerditos y el lobo</p>
+         <img src="imagenes/cerditos2.png" width="171px" height="55"></a>
+  </td>
+      
+  <td width="171px" height="50px" align="center">
+         <a href="cuento3.html" target="contenido"><p>La hormiga y la cigarra</p>
+         <img src="imagenes/hormiga.png" width="130px" height="80"></a>
+  </td>
+        
+  <td width="171px" height="50px" align="center">
+         <a href="cuento4.html" target="contenido"><p>El leon y el raton</p>
+         <img src="imagenes/leonyraton2.png" width="131px" height="70"></a>
+  </td>
+          
+  <td width="171px" height="50px" align="center">
+         <a href="cuento5.html" target="contenido"><p>La medida de los flamencos</p>
+         <img src="imagenes/flam_min_2.png"  width="171px" height="50"></a>
+  </td>
+         
+  <td width="171px" height="50" align="center">
+    <a href="juegos.html" target="contenido"><p>Juegos</p>
+    <img src="imagenes/juegos2.png" width="171px" height="50"></a>
+
+
+  </td>
+  </tr>
+  <div>
+  <tr>
+ <td height="600" colspan="7" align="center"> 
+  <iframe name="contenido" src="inicio.html" width="1200px" height="600px" allowtransparency="yes" frameborder="0">
+  </iframe>
+  </td>
+  </tr>
+  <tr>
+  <td height="100px" colspan="7" align="center" bgcolor="#4DACFF">
+   <p> ©️Todos los Derechos Reservados Instituto Tecnologico de Tuxtepec 2025</p>
+   <p> Diseñador Alejandro Ordoñez Soto </p>
+   <p> Desarrollo de Aplicacion Web </p>
+   </td>
+  </tr>
+  </table>
+ </body>
+ </html>
